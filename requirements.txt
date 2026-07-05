@@ -1,5 +1,6 @@
 streamlit
 snowflake-connector-python
+snowflake-sqlalchemy
 google-genai
 plotly
 pandas
