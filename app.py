@@ -6,7 +6,10 @@ import os
 import pandas as pd
 import plotly.express as px
 
-load_dotenv("details.env")
+try:
+    load_dotenv("details.env")
+except:
+    pass
 
 # ── Snowflake connection ──
 def get_snowflake_connection():
