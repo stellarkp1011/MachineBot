@@ -1,0 +1,22 @@
+# Secret credentials
+details.env
+
+# Raw and preprocessed data files
+*.csv
+
+# Images (schema images)
+image*.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Power BI file
+*.pbix
+
+# Temp files
+tempCodeRunnerFile.py
