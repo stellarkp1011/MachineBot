@@ -56,7 +56,27 @@ streamlit run app.py
 
 ## Screenshots
 
-*MachineBOT in action — answering factory questions with charts*
+### MachineBOT Chatbot
+
+**Answering questions with plain English:**
+![Chatbot Demo](chatbot_with_query.png)
+
+**Multiple questions in chat history:**
+![Multiple Questions](chatbot_multiple_questions.png)
+
+**Auto-generated Bar Chart:**
+![Bar Chart](chatbot_bar_chart.png)
+
+**Auto-generated Pie Chart:**
+![Pie Chart](chatbot_pie_chart.png)
+
+### Power BI Dashboard
+
+**Overview Page:**
+![Dashboard Overview](overview_dashboard.png)
+
+**Gas Cutting Analysis:**
+![Gas Cutting](gas_cutting_dashboard.png)
 
 ## Author
 

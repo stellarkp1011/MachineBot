@@ -5,7 +5,10 @@ details.env
 *.csv
 
 # Images (schema images)
+# Schema images only
 image*.png
+management_*.png
+
 
 # Python cache
 __pycache__/
