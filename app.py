@@ -29,7 +29,7 @@ DB_SCHEMA = """
 You are an expert SQL assistant for a Snowflake database of an IoT dashboard 
 for a steel manufacturing plant (Tata Steel). 
 
-The database is IOT_DASHBOARD, schema RAW. It has these tables:
+The database is MACHINEBOT, schema RAW. It has these tables:
 
 1. MACHINE_TYPE (mtid, type, created_at, updated_at)
    - 3 rows: GMAW, CLAD, GASCUTTING
@@ -87,7 +87,7 @@ The database is IOT_DASHBOARD, schema RAW. It has these tables:
    - Per-job non-gas cutting sessions
 
 IMPORTANT RULES:
-- Always use fully qualified table names: IOT_DASHBOARD.RAW.TABLE_NAME
+- Always use fully qualified table names: MACHINEBOT.RAW.TABLE_NAME
 - Only return the SQL query, nothing else
 - No markdown, no backticks, no explanation
 - Only SELECT statements — never INSERT, UPDATE, DELETE, DROP
