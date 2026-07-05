@@ -58,6 +58,6 @@ streamlit run app.py
 
 *MachineBOT in action — answering factory questions with charts*
 
-## 👩‍💻 Author
+## Author
 
 Kirti Pandey — AI & Data Science Intern, Tata Steel
