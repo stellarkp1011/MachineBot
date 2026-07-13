@@ -17,6 +17,8 @@
 
 # load_dotenv("details.env")
 # print("API Key:", os.getenv("GEMINI_API_KEY"))
+from turtle import st
+
 from google import genai
 from dotenv import load_dotenv
 import os
@@ -30,3 +32,5 @@ response = client.models.generate_content(
     contents="Say hello in one word"
 )
 print(response.text)
+
+
