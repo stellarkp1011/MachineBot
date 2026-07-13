@@ -1,4 +1,3 @@
-from prompt_toolkit import prompt
 import streamlit as st
 import snowflake.connector
 from google import genai
